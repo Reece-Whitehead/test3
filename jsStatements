@@ -1,0 +1,46 @@
+HTML:
+
+```html
+<h1>JavaScript Basics</h1>
+
+<h2>JavaScript Statements: An Example</h2>
+<p>
+<pre>
+let a, b, c;  // Statement 1
+a = 5;        // Statement 2
+b = 6;        // Statement 3
+c = a + b;    // Statement 4
+</pre>
+</p>
+
+<h2>What is a JavaScript Program?</h2>
+<p>A JavaScript program is just a series of statements or instructions to be run by the computer. These programs are executed by the browser.</p>
+
+<h2>Elements of JavaScript Statements</h2>
+<p>JavaScript statements include: Values, Operators, Expressions, Keywords, and Comments.</p>
+<p>An example showing a 'write' instruction to the browser:</p>
+<pre>
+document.getElementById("demo").innerHTML = "Hello Dolly.";
+</pre>
+<p>Most JavaScript codes contain multiple JavaScript statements that are executed sequentially.</p>
+
+<h2>Semicolons in JavaScript</h2>
+<p>In JavaScript, semicolons are used to separate statements. It is a good practice to end each executable statement with a semicolon, although it's not mandatory.</p>
+
+<h2>Use of White Space in JavaScript</h2>
+<p>JavaScript doesn't consider multiple spaces. White spaces can be used to make script more readable, such as spaces around operators like = + - * /.</p>
+
+<h2>Code Length and Line Breaks in JavaScript</h2>
+<p>For readability, it's recommended to keep code lines under 80 characters. If a statement cannot fit in a line, it's best to break after an operator.</p>
+
+<h2>Grouping JavaScript Statements</h2>
+<p>JavaScript statements can be grouped in code blocks, using curly brackets {}. Such grouping is often seen in JavaScript functions, like the following example:</p>
+<pre>
+function sampleFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";}
+</pre>
+<h2>JavaScript Keywords</h2>
+<p>JavaScript statements usually start with a keyword. These keywords indicate what action JavaScript should perform. These keywords, known as reserved words, can't be used as variable names.</p>
+</html>
+```
