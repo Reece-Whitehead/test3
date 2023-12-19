@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Const Explained</title>
+</head>
+<body>
+
+<h1>JavaScript Const</h1>
+<p>The <code>const</code> keyword in JavaScript was introduced in ES6 (2015). It is used to declare variables that can neither be redeclared nor reassigned. These variables also have block scope.</p>
+
+<h2>Assigning a Value to const Variables</h2>
+<p>When declaring a const variable, it must be assigned a value immediately.</p>
+<pre>
+Correct:
+const PI = 3.14159265359;
+
+Incorrect:
+const PI;
+PI = 3.14159265359;
+</pre>
+
+<h2>When to use JavaScript Const?</h2>
+<p>Use <code>const</code> when you're declaring:</p>
+<ul>
+<li>A new Array</li>
+<li>A new Object</li>
+<li>A new Function</li>
+<li>A new RegExp</li>
+</ul>
+
+<h2>Constant Objects and Arrays</h2>
+<p>The keyword <code>const</code> doesn't really define a constant value, but a constant reference. You cannot reassign a constant array, object or value, but you can modify the elements of a constant array or the properties of a constant object.</p>
+
+<h3>Example: Working with Constant Arrays</h3>
+<pre>
+// Creating a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+// Changing an element:
+cars[0] = "Toyota";
+// Adding an element:
+cars.push("Audi");
+</pre>
+
+<h3>Example: Working with Constant Objects</h3>
+<pre>
+// Creating a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+// Changing a property:
+car.color = "red";
+// Adding a property:
+car.owner = "Johnson";
+</pre>
+
+<h2>Browser Support</h2>
+<p>The <code>let</code> and <code>const</code> keywords are not supported in Internet Explorer 11 or earlier.</p>
+
+<h3>Block Scope</h3>
+<p>Declaring a variable with <code>const</code> is similar to <code>let</code> in terms of Block Scope.</p>
+<pre>
+const x = 10;
+// x is 10 here
+{ 
+const x = 2;
+// x is 2 here
+}
+// x is 10 here
+</pre>
+
+<h3>Redeclaring</h3>
+<p>You cannot redeclare a <code>var</code> or <code>let</code> variable as <code>const</code> within the same scope and vice versa. Redeclaring a constant variable is allowed within a different scope or block.</p>
+
+<h3>Hoisting</h3>
+<p>While variables defined with <code>var</code> are hoisted and can be initialized at any time, variables declared with <code>const</code> are hoisted but not initialized. Hence, using a <code>const</code> variable before it is declared will throw a ReferenceError.</p>
+
+</body>
+</html>
