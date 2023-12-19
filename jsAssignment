@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment Operators Guide</h1>
+
+<p>JavaScript assignment operators are tools for assigning values to variables. There are various types of assignment operators, such as:</p>
+<ul>
+  <li>Shift Assignment Operators</li>
+  <li>Bitwise Assignment Operators</li>
+  <li>Logical Assignment Operators (included in ES2020)</li>
+</ul>
+
+<h2>Common Assignment Operators</h2>
+
+<h3>The = Operator</h3>
+<p>This is a simple assignment operator that assigns a value to a variable. For example:</p>
+<pre>
+  let z = 10;
+  let z = 10 + y;
+</pre>
+
+<h3>The += Operator</h3>
+<p>This is an addition assignment operator that adds a value to a variable. For example:</p>
+<pre>
+  let a = 10; a += 5;
+  let text = "Hi"; text += " there";
+</pre>
+
+<h3>The -= Operator</h3>
+<p>This is a subtraction assignment operator that subtracts a value from a variable. For example:</p>
+<pre>
+  let m = 20;
+  m -= 5;
+</pre>
+
+[...]
+
+<h2>Test Your Understanding</h2>
+<p>Exercise: Use the correct assignment operator that would yield m = 15, similar to m = m + n. <a href="#">Start the Exercise</a></p>
+
+</body>
+</html>
