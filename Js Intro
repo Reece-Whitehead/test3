@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction to JavaScript</title>
+</head>
+<body>
+
+    <h1>Introduction to JavaScript</h1>
+
+    <p>JavaScript has a myriad of capabilities, as demonstrated by the following examples:</p>
+
+    <h2>Modifying HTML Content with JavaScript</h2>
+    <p>Through methods like getElementById(), JavaScript can identify HTML elements and adjust their content:</p>
+
+    <pre>
+        Example:
+
+        document.getElementById('example').innerHTML = 'Hi, JavaScript';
+    </pre> 
+
+    <p>Note that both single and double quotes are acceptable in JavaScript.</p>
+
+    <h2>Altering HTML Attribute Values</h2>
+    <p>Attributes of HTML tags, such as the src attribute of an <img> tag, can be changed with JavaScript.</p>
+
+    <h2>Changing HTML Styles</h2>
+    <p>HTML element styles can also be modified, like so:</p>
+
+    <pre>
+        Example:
+
+        document.getElementById('example').style.fontSize = '25px';
+    </pre> 
+
+    <h2>Toggling HTML Element Visibility</h2>
+    <p>To hide or show HTML elements, the display style can be adjusted:</p>
+
+    <pre>
+        Examples:
+
+        document.getElementById('example').style.display = 'none'; // to hide
+        document.getElementById('example').style.display = 'block'; // to show
+    </pre> 
+
+    <h2>Interesting JavaScript Facts</h2>
+    <ul>
+        <li>Even though their names are similar, JavaScript and Java are distinct languages.</li>
+        <li>JavaScript was created by Brendan Eich in 1995 and became an ECMA standard in 1997.</li>
+        <li>The official standard name is ECMA-262, and the language's official title is ECMAScript.</li>
+    </ul>
+</body>
+</html>
