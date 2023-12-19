@@ -1,0 +1,100 @@
+<h2>Implementing JavaScript</h2>
+In HTML, JavaScript code is embedded within <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags.
+
+<b>Example:</b>
+<pre>
+&lt;script&gt;
+    document.getElementById("demo").innerHTML = "First JavaScript Example";
+&lt;/script&gt;
+</pre>
+
+<b>Note:</b> The type attribute on script tag (type="text/javascript") is not necessary as JavaScript is the default scripting language in HTML.
+
+<h3>JavaScript Functions and Events</h3>
+A JavaScript function is a block of code that executes on invocation. For instance, a function can be invoked when an event like a button click occurs.
+
+<h3>Position of JavaScript Code</h3>
+Scripts can be positioned anywhere within an HTML document, either in the <code>&lt;head&gt;</code> or the <code>&lt;body&gt;</code> section.
+
+In the following examples, a JavaScript function is defined in the <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code> sections respectively. It gets invoked on a button click.
+
+<b>Example in &lt;head&gt; tag:</b>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;script&gt;
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Text has been changed.";
+            }
+        &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h2&gt;Example of JavaScript in &lt;head&gt;&lt;/h2&gt;
+
+        &lt;p id="demo"&gt;A simple paragraph&lt;/p&gt;
+        &lt;button type="button" onclick="myFunction()"&gt;Click Here&lt;/button&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<b>Example in &lt;body&gt; tag:</b>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;h2&gt;Example of JavaScript in &lt;body&gt;&lt;/h2&gt;
+
+        &lt;p id="demo"&gt;A simple paragraph&lt;/p&gt;
+        &lt;button type="button" onclick="myFunction()"&gt;Click Here&lt;/button&gt;
+        &lt;script&gt;
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Text has been changed.";
+            }
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h3>External JavaScript</h3>
+Scripts can also reside in external files, this is useful when the script needs to be used across different web pages. JavaScript files have .js extension. 
+
+An external script can be included in the HTML using the src attribute inside script tag. 
+
+<b>Example:</b>
+<pre>
+&lt;script src="externalScript.js"&gt;&lt;/script&gt;
+</pre>
+
+<h3>Advantages of External JavaScript</h3>
+Using external JavaScript files provide several advantages: 
+
+<ul>
+    <li>Maintains separation of HTML and JavaScript code.</li>
+    <li>Improves readability and maintenance.</li>
+    <li>Allows caching of JavaScript files for faster page loads.</li>
+</ul>
+
+If you want to include multiple script files, use separate script tags for each:
+
+<b>Example:</b>
+<pre>
+&lt;script src="externalScript1.js"&gt;&lt;/script&gt;
+&lt;script src="externalScript2.js"&gt;&lt;/script&gt;
+</pre>
+
+<h3>Referencing External Scripts</h3>
+External scripts can be referenced in three ways:
+
+<ol>
+    <li>With a full URL</li>
+    <li>With a relative file path</li>
+    <li>Simply by filename if the file is in the same directory</li>
+</ol>
+
+<b>Examples:</b>
+<pre>
+&lt;script src="https://www.example.com/js/externalScript.js"&gt;&lt;/script&gt;
+&lt;script src="/js/externalScript.js"&gt;&lt;/script&gt;
+&lt;script src="externalScript.js"&gt;&lt;/script&gt;
+</pre>
