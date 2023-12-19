@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Tutorial</title>
+</head>
+<body>
+
+<h1>JavaScript Tutorial</h1>
+
+<p>
+JavaScript is a widely used programming language and it's the primary language for web development. It's beginner-friendly and this tutorial aims to take you from a novice to a proficient JavaScript developer. 
+</p>
+
+<h2>Interactive Examples</h2>
+<p>
+Each chapter comes with an interactive editor that lets you modify the code and see the outcome.
+</p>
+
+<h3>Example: Basic JavaScript</h3>
+<p>
+Click the button to display the current date and time.
+</p>
+<button>Click me</button>
+
+<h2>Course Navigation</h2>
+
+<p>
+We suggest you follow this tutorial in the order given in the navigation menu. 
+</p>
+
+<h2>Learn through Examples</h2>
+
+<p>
+Examples can be more effective than written explanations. So, this tutorial includes interactive examples for better understanding.
+</p>
+
+<h2>Why Learn JavaScript?</h2>
+<p>
+Web development requires knowledge in three languages, and JavaScript is one of them. The other two are HTML for content and CSS for layout. 
+</p>
+<p>
+This tutorial guides you through all versions of JavaScript, starting from the original version to the latest updates.
+</p>
+
+<h2>Learning Pace</h2>
+<p>
+Learning pace depends on you. Take some time off if you find difficulty. Practice is the key to become a proficient developer.
+</p>
+<h2>Exercises</h2>
+
+<p>
+Test your understanding with exercises included in this tutorial.
+</p>
+
+<h3>Exercise:</h3>
+<p>
+Create a variable with name "carName" with value "Volvo". 
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<ul>
+  <li>JavaScript comes pre-installed in your web browser, you don't need to download it.</li>
+  <li>Yes, JavaScript is free to use.</li>
+</ul>
+
+<h2>Track your Progress</h2>
+
+<p>
+You can keep track of your progress with our free learning program. Signing up is optional.
+</p>
+
+<h2>Reference Material</h2>
+
+<p>
+We provide a complete JavaScript reference which is regularly updated as per the latest standards.
+</p>
+
+<h2>Test Your Knowledge</h2>
+
+<p>
+Test your JavaScript knowledge with our quiz!
+</p>
+
+<h2>Start your Career</h2>
+
+<p>
+Get certification on completion of the course.
+</p>
+
+<h3>Additional Tools</h3>
+<p>
+We provide a color picker tool for your use as well.
+</p>
+
+</body>
+</html>
