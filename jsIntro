@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Overview of JavaScript</title>
+</head>
+<body>
+
+<h1>JavaScript Overview</h1>
+
+<p>This page illustrates several functionalities offered by JavaScript.</p>
+
+<h2>JavaScript's Ability to Modify HTML Content</h2>
+
+<p>JavaScript provides HTML methods such as getElementById(). The following example demonstrates how to identify an HTML element (with id="sample"), and alter the element content (innerHTML) to "Hello JavaScript":</p>
+
+<pre>
+ document.getElementById("sample").innerHTML = "Welcome to JavaScript";
+</pre>
+
+<p>Note that JavaScript is compatible with both double and single quotes:</p>
+
+<pre>
+ document.getElementById("sample").innerHTML = 'Welcome to JavaScript';
+</pre>
+
+<h2>JavaScript's Ability to Alter HTML Attribute Values</h2>
+
+<p>JavaScript can adjust the value of attributes in HTML tags. For instance, it can alter the src (source) attribute of an <img> tag.</p>
+
+<h2>JavaScript's Ability to Modify HTML Styles (CSS)</h2>
+
+<p>JavaScript is capable of updating the style of an HTML element. See the example below:</p>
+
+<pre>
+ document.getElementById("sample").style.fontSize = "30px";
+</pre>
+
+<h2>JavaScript's Ability to Hide and Show HTML Elements</h2>
+
+<p>JavaScript allows hiding or displaying HTML elements by adjusting the display style. Here are two examples:</p>
+
+<pre>
+ document.getElementById("sample").style.display = "none"; //hide
+ document.getElementById("sample").style.display = "block"; //show
+</pre>
+
+<h2>Did You Know?</h2>
+
+<p>Contrary to what their names might suggest, JavaScript and Java are entirely different languages. They diverge in both their core philosophy and their design.</p>
+
+<p>JavaScript was conceptualized and developed by Brendan Eich in 1995, and it was officially recognized as an ECMA standard in 1997. ECMAScript represents the official standard name, and the official language name is ECMA-262.</p>
+
+</body>
+</html>
