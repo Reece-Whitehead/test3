@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Basics</title>
+</head>
+<body>
+
+<h1>JavaScript Basics</h1>
+<p>JavaScript is a widely used web programming language. This tutorial will quickly take you from beginner to advanced level.</p>
+
+<h2>Interactive Examples</h2>
+<p>Our "Try it Yourself" tool lets you modify and run code, and see the result.</p>
+<p><strong>Example JavaScript task:</strong>
+<pre>
+  Click me to show Date and Time
+</pre>
+<p><em>"Try it Yourself"</em> examples help clarify all our points.</p>
+
+<h2>Navigating the Tutorial</h2>
+<p>Follow this tutorial in order with the menu. If you can't see the menu, click the top menu sign ☰.</p>
+
+<h2>Why Learn JavaScript?</h2>
+<p>All web developers must know these 3 languages:
+  <ul>
+    <li>HTML for web page content</li>
+    <li>CSS for web page layout</li>
+    <li>JavaScript for web page behavior</li>
+  </ul>
+This tutorial covers every JavaScript from the original version to the recent updates.</p>
+
+<h2>Learning Pace</h2>
+<p>Decide the pace of your learning. If you struggle, take a break or revisit previous sections. Practice and coding are key to mastery.</p>
+
+<h2>Exercises</h2>
+<p><strong>Exercise:</strong> Assign the value Volvo to a variable named carName. <a href="#">Start the Exercise</a></p>
+
+<h2>Frequently Asked Questions</h2>
+<p>JavaScript runs in your browser, there's no need to download or purchase anything. It's free and accessible to all.</p>
+
+<h2>Track Your Progress</h2>
+<p>Use our free "My Learning" program to track your progress. This is optional, and you can study without an account.</p>
+
+<h2>JavaScript References</h2>
+<p>We provide a complete and continually updated JavaScript reference tool.</p>
+
+<h2>Test Your Skills</h2>
+<p>Test your JavaScript knowledge with our quiz! <a href="#">Start JavaScript Quiz!</a></p>
+
+<h2>Get Certified</h2>
+<p>Boost your career prospects with our certified course.</p>
+
+</body>
+</html>
