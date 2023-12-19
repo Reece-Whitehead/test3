@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Understanding JavaScript Comments</title>
+  </head>
+  <body>
+    <h1>JavaScript Comments</h1>
+    <p>JavaScript comments offer a way to explain JavaScript code, making it easier to understand. They can also help deactivate code while testing different code blocks.</p>
+
+    <h2>Single Line Comments</h2>
+    <p>Single line comments begin with //. Any text following // to the end of the line is ignored by JavaScript. Observe the examples below:</p>
+
+    <h3>Example 1:</h3>
+    <pre>
+      <code>
+      // Alter the heading
+      document.getElementById("myH").innerHTML = "Intro Page";
+      // Alter the paragraph
+      document.getElementById("myP").innerHTML = "Hello, this is my first paragraph.";
+      </code>
+    </pre>
+
+    <h3>Example 2:</h3>
+    <pre>
+      <code>
+      let a = 10;     // Declare a, assign it 10
+      let b = a + 3;  // Declare b, assign it a + 3
+      </code>
+    </pre>
+    
+    <h2>Multi-line Comments</h2>
+    <p>Multi-line comments begin with /* and end with */. Any text enclosed within /* and */ is ignored by JavaScript. For example:</p>
+    <pre>
+      <code>
+      /*
+      The following code will modify
+      the heading with id = "myH"
+      and the paragraph with id = "myP"
+      on the webpage:
+      */
+      document.getElementById("myH").innerHTML = "Intro Page";
+      document.getElementById("myP").innerHTML = "Hello, this is my first paragraph.";
+      </code>
+    </pre>
+    
+    <h2>Commenting Out Code for Testing</h2>
+    <p>Comments can also be used to prevent code from executing, which can be useful for code testing. Adding // at the start of a code line turns that code line into a comment and thus, JavaScript ignores it.</p>
+
+     <h3>Example:</h3>
+    <pre>
+      <code>
+      //document.getElementById("myH").innerHTML = "Intro Page";
+      document.getElementById("myP").innerHTML = "Hello, this is my first paragraph.";
+      </code>
+    </pre>
+    
+    <h2>Comments in formal Documentation</h2>
+    <p>While single-line comments are more commonly used, block comments are often included in formal documentation.</p>
+  </body>
+</html>
