@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>JavaScript Output Simplified</title>
+</head>
+<body>
+<h1>How JavaScript Displays Data</h1>
+
+<p>There are different ways JavaScript can show data:</p>
+<ul>
+    <li>By inserting into an HTML element using <code>innerHTML</code>.</li>
+    <li>By outputting into HTML using <code>document.write()</code>.</li>
+    <li>In an alert box using <code>window.alert()</code> or <code>alert()</code>.</li>
+    <li>In the web browser's console using <code>console.log()</code>.</li>
+</ul>
+
+<h2>Using innerHTML</h2>
+
+<p>To modify an HTML element, JavaScript's <code>document.getElementById(id)</code> method can be used. The HTML content is defined by the <code>innerHTML</code> property:</p>
+
+<code>
+    &lt;!DOCTYPE html&gt;&lt;html&gt;
+    &lt;body&gt;
+    &lt;h1&gt;My Sample Web Page&lt;/h1&gt;
+    &lt;p&gt;My First Statement&lt;/p&gt;
+    &lt;p id="example"&gt;&lt;/p&gt;
+    &lt;script&gt;
+    document.getElementById("example").innerHTML = 7 + 8;
+    &lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+<h2>Using document.write()</h2>
+
+<p>For testing, the <code>document.write()</code> method is often used:</p>
+
+<code>
+    &lt;!DOCTYPE html&gt;&lt;html&gt;
+    &lt;body&gt;&lt;h1&gt;My First Web Page&lt;/h1&gt;
+    &lt;p&gt;My first statement.&lt;/p&gt;
+    &lt;script&gt;document.write(7 + 8);&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+<h2>Using window.alert() or alert()</h2>
+
+<p>An alert box can be useful to display data:</p>
+ 
+<code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;body&gt;
+    &lt;h1&gt;First Web Page&lt;/h1&gt;&lt;p&gt;First statement.&lt;/p&gt;
+    &lt;script&gt;alert(7 + 8);
+    &lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+<h2>Using console.log()</h2>
+
+<p>You can use <code>console.log()</code> to debug and display data in the browser's console.</p>
+
+<code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;body&gt;
+    &lt;script&gt;
+    console.log(7 + 8);
+    &lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+<h2>JavaScript Print</h2>
+
+<p>JavaScript doesn't have specific print methods or objects. It can't access your output devices. The lone exception is <code>window.print()</code> method for printing the current window's content.</p>
+
+<code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;&lt;body&gt;
+    &lt;button onclick="window.print()"&gt;Print this page&lt;/button&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+</body>
+</html>
