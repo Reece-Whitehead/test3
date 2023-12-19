@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>JavaScript Variables</h4>
+
+<p>In JavaScript, variables serve as data storage containers and can be declared in various ways:</p>
+<ul>
+    <li>Automatically when first used</li>
+    <li>Using var</li>
+    <li>Using let</li>
+    <li>Using const</li>
+</ul>
+
+<h5>Examples of Variable Declarations</h5>
+
+<p>
+Example of automatically declared variables:
+<pre>
+    x = 5;
+    y = 6;
+    z = x + y; // z will be 11
+</pre>
+</p>
+
+<p>
+Example using var (mostly used before 2015 for backward compatibility with old browsers):
+<pre>
+    var x = 5;
+    var y = 6;
+    var z = x + y; // z will be 11
+</pre>
+</p>
+
+<p>
+Example using let:
+<pre>
+    let x = 5;
+    let y = 6;
+    let z = x + y; // z will be 11
+</pre>
+</p>
+
+<p>
+Example using const:
+<pre>
+    const x = 5;
+    const y = 6;
+    const z = x + y; // z will be 11
+</pre>
+</p>
+
+<p>
+Mixed example:
+<pre>
+    const price1 = 5;
+    const price2 = 6;
+    let total = price1 + price2; // total will be 11
+</pre>
+Here, price1 and price2 cannot be changed because they are constant. However, total can be changed as it's declared with let.
+</p>
+
+<h5>Usage Guide</h5>
+<ol>
+    <li>Declare all variables</li>
+    <li>Use const if the value should not be changed</li>
+    <li>Use const for unchanging types (e.g., Arrays and Objects)</li>
+    <li>Use let if const doesn't fit</li>
+    <li>Use var only for outdated browsers</li>
+</ol>
+
+<h5>JavaScript Identifiers</h5>
+<p>Variable names in JavaScript, also known as identifiers, must be unique and should follow these rules:</p>
+<ul>
+    <li>Can contain letters, numbers, underscores ($), and dollar signs (_).</li>
+    <li>Must begin with a letter, $, or _ .</li>
+    <li>Case-sensitive (e.g., variableName and variablename would be different variables).</li>
+    <li>Reserved JavaScript keywords not allowed.</li>
+</ul>
+
+<h5>JavaScript Assignment Operator (=)</h5>
+<p>Unlike in algebra, the equal sign in JavaScript is an "assignment" operator, not an "equal to" operator. For example, x = x + 5 in JavaScript assigns the value of x + 5 to x.</p>
+
+<h5>JavaScript Data Types</h5>
+<p>Variables in JavaScript can hold different data types like numbers and text strings. Strings are enclosed in quotes, while numbers aren't. If a number is enclosed in quotes, it's treated as a text string.</p>
+
+<h5>Declaring JavaScript Variables</h5>
+<p>Variables can be declared in JavaScript using var or let. For example:</p>
+
+<pre>
+    var carName;
+    let carName;
+</pre>
+
+<p>A variable can be assigned a value either at the time of declaration or later:</p>
+
+<pre>
+    carName = "Volvo"; // assigning value later
+    let carName = "Volvo"; // assigning value at declaration
+</pre>
+
+<p>You can declare multiple variables in a single statement, like:</p>
+
+<pre>
+    let person = "John Doe", carName = "Volvo", price = 200;
+</pre>
+
+<h5>Javascript Arithmetic</h5>
+<p>You can perform arithmetic operations with JavaScript variables. For example:</p>
+
+<pre>
+    let x = 5 + 2 + 3; // x will be equal to 10
+</pre>
+
+<p>You can append strings, too. The following example shows how to concatenate strings:</p>
+
+<pre>
+    let x = "John" + " " + "Doe"; // x would become "John Doe"
+</pre>
+
+<p>Note: If a number is enclosed in quotes, subsequent numbers will be treated as strings, and thus will be concatenated.</p>
+
+<h5>JavaScript Dollar Sign ($) and Underscore (_)</h5>
+<p>In JavaScript, you can use $ and _ as valid characters in variable names:</p>
+
+<pre>
+    let $ = "Hello";
+    let _x_ = 2;
+</pre>
+
+<p>Generally, the use of $ and _ isn't common. However, professional programmers sometimes use it as an alias while using jQuery, for instance, or as a convention for private variables.</p>
+
+</body>
+</html>
