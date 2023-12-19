@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>JavaScript Arithmetic Operators</title>
+</head>
+<body>
+<h1>JavaScript Arithmetic Operators</h1>
+<p>Arithmetic operators are used to perform calculations with numbers (either literals or variables).</p>
+
+<h2>Performing Operations</h2>
+<p>An arithmetic operation typically uses two numbers. These numbers can be:</p>
+
+<p>Literal numbers:</p>
+<pre>
+let result = 100 + 50;
+</pre>
+
+<p>Variables:</p>
+<pre>
+let result = num1 + num2;
+</pre>
+
+<p>Expressions:</p>
+<pre>
+let result = (100 + 50) * num;
+</pre>
+
+<h2>Operators and Operands</h2>
+<p>The values used in the operation are called operands. The actual operation performed is determined by an operator.</p>
+
+<h2>Arithmetic Operators in JavaScript</h2>
+
+<h3>Addition</h3>
+<p>The '+' operator adds numbers:</p>
+<pre>
+let a = 5;
+let b = 2;
+let sum = a + b;
+</pre>
+
+<h3>Subtraction</h3>
+<p>The '-' operator subtracts numbers:</p>
+<pre>
+let a = 5;
+let b = 2;
+let diff = a - b;
+</pre>
+
+<h3>Multiplication</h3>
+<p>The '*' operator multiplies numbers:</p>
+<pre>
+let a = 5;
+let b = 2;
+let prod = a * b;
+</pre>
+
+<h3>Division</h3>
+<p>The '/' operator divides numbers:</p>
+<pre>
+let a = 5;
+let b = 2;
+let div = a / b;
+</pre>
+
+<h3>Modulus</h3>
+<p>The '%' operator returns the remainder of a division:</p>
+<pre>
+let a = 5;
+let b = 2;
+let mod = a % b;
+</pre>
+
+<h3>Increment</h3>
+<p>The '++' operator increments numbers:</p>
+<pre>
+let a = 5;
+a++;
+let res = a;
+</pre>
+
+<h3>Decrement</h3>
+<p>The '--' operator decrements numbers:</p>
+<pre>
+let a = 5;
+a--;
+let res = a;
+</pre>
+
+<h3>Exponentiation</h3>
+<p>The '**' operator raises a number to the power of another:</p>
+<pre>
+let a = 5;
+let res = a ** 2;
+</pre>
+
+<p>This is equivalent to using Math.pow(a,b):</p>
+<pre>
+let a = 5;
+let res = Math.pow(a, 2);
+</pre>
+
+<h2>Operator Precedence</h2>
+<p>Operator precedence defines the order in which arithmetic operations are performed. For instance, multiplication (*) and division (/) are performed before addition (+) and subtraction (-). Parentheses can change the precedence:</p>
+
+<pre>
+let result = (100 + 50) * 3;
+</pre>
+
+<p>Operations with the same precedence are performed from left to right:</p>
+<pre>
+let result = 100 + 50 - 3;
+let result = 100 / 50 * 3;
+</pre>
+
+<p>For a complete list of operator precedence, refer to: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">JavaScript Operator Precedence</a>.</p>
+
+<h3>Practice Exercise:</h3>
+<p>Exercise: Divide 10 by 2, and alert the result:</p>
+<pre>
+let quotient = 10 / 2;
+alert(quotient);
+</pre>
+</body>
+</html>
